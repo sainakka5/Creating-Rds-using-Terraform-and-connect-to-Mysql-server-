@@ -27,6 +27,9 @@ STEPS TO CREATE AWS RDS :
 	For access_key and secret_key we have to create a IAM user with suitable permission and generate access_key and secret_key for that IAM user
 ## create a file with name vpc.tf and give the below script to create of new vpc and save it ## 
 
+![Screenshot 2024-02-17 115501](https://github.com/sainakka5/Creating-Rds_VPC_SUBNETS_IGW_SECURITYGROUP-using-Terraform-and-connect-to-Mysql-server/assets/136338958/37d03bff-c0e7-47df-a7d9-19730227fb76)
+
+
     module "vpc" {	## This is the definition of the Terraform module named "vpc".
       source = "terraform-aws-modules/vpc/aws" ## This specifies the source of the module. In ## this case, it's using a community-provided module called terraform-aws- modules/vpc/aws#
       
